@@ -6,6 +6,7 @@
     <title>Karel Vanden Bussche</title>
     <link rel="stylesheet" href="bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timeline.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
@@ -28,12 +29,15 @@
         <nav class="tabs">
             <div class="container">
                 <ul>
+                    <!--
+                    TODO: fill this in with my own tabs (education, ...)
                     <li class="is-active"><a>Overview</a></li>
                     <li><a>Modifiers</a></li>
                     <li><a>Grid</a></li>
                     <li><a>Elements</a></li>
                     <li><a>Components</a></li>
                     <li><a>Layout</a></li>
+                    -->
                 </ul>
             </div>
         </nav>
@@ -44,17 +48,30 @@
 
     <!-- Title -->
     <h1 class="title has-text-centered">Who am I?</h1>
-    <h2 class="subtitle has-text-centered">Or what is my goal</h2>
+    <h2 class="subtitle has-text-centered">What is my goal</h2>
     <p class="has-text-centered">I am a curious and inquisitive computer science student. My expertise lies in multiple subdomains: Android, iOS, backend, frontend and algorithms. I am always looking for the next challenge to ameliorate my skills and knowledge, in my own field or a neighbouring one.</p>
     <p class="has-text-weight-bold has-text-centered">And this is my resume!</p>
+    <!-- Title -->
 </div>
 
-<div class="container is-fluid default-margin">
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Now for my skills
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<div class="container is-fluid default-margin no-overflow-container">
 
     <!-- Title -->
-    <div class="title-block">
+    <div class="">
         <h1 class="title has-text-centered">Education</h1>
-        <h2 class="subtitle has-text-centered">Or who shaped my core knowledge</h2>
+        <h2 class="subtitle has-text-centered">Who shaped my core knowledge</h2>
     </div>
     <!-- Title -->
 
@@ -212,6 +229,88 @@
         </article>
     </div>
 </div>
+<!-- Education -->
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Still not convinced?
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Work Experience -->
+<div class="container default-margin">
+    <!-- Title -->
+    <div class="title-block">
+        <h1 class="title has-text-centered">Work Experience</h1>
+        <h2 class="subtitle has-text-centered">What made me dig deeper in programming</h2>
+    </div>
+    <!-- Title -->
+
+    <div class="container">
+
+        <div class="timeline-item" date-is='July 2016-Aug 2016'>
+            <h1 class="title">Backend Developer</h1>
+            <h2 class="subtitle">Artilium</h2>
+            <p>
+                During my stay, I helped set up a new web application, both front and back end, to couple an identity to prepaid phone cards for a couple of mobile network operators. The application was written in .NET MVC using Razor. This was my first time using .NET and the bootstrap frontend layout framework.
+            </p>
+        </div>
+
+        <div class="timeline-item" date-is='April 2017-Sep 2017'>
+            <h1 class="title">All-round Developer</h1>
+            <h2 class="subtitle">Prior-It</h2>
+            <div class="content">
+                <p>
+                    During my time there, I created applications based on a pre-existing PHP backend. This application handles check-in and check-outs of construction workers to create correct time estimates. This service consisted of:
+                </p>
+                <ul>
+                    <li>An angular web application</li>
+                    <li>An iOS application</li>
+                    <li>An android application</li>
+                </ul>
+                <p>I worked closely with the client to develop and update the application.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" date-is='July 2018-Sep 2018'>
+            <h1 class="title">Android Developer</h1>
+            <h2 class="subtitle">BakkersOnline</h2>
+            <p>
+                Our team of 2 was responsible for building the public android application to complement the current web platform. The application will be launched publicly soon. Part of this job was remote.
+            </p>
+        </div>
+
+        <div class="timeline-item" date-is='July 2018-Sep 2018'>
+            <h1 class="title">Python Developer</h1>
+            <h2 class="subtitle">Ghent University</h2>
+            <div class="content">
+                <p>
+                    My job consisted of:
+                </p>
+                <ul>
+                    <li>Creating solutions for complex bio-informatics algorithms based on the exercises of <a href="http://rosalind.info/problems/locations/">Rosalind</a></li>
+                    <li>Expanding the online programming education platform of the university</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="timeline-item" date-is='This Summer'>
+            <h1 class="title">Internship</h1>
+            <h2 class="subtitle">Your Company</h2>
+            <div class="content">
+                <p>Will your company give me an internship where I can use my skills in a challenging and enriching way?</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Work Experience -->
 
 </body>
 </html>

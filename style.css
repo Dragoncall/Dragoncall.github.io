@@ -1,6 +1,7 @@
 #hero-main {
     position: relative;
     background: #00000090;
+    margin-bottom: 64px;
 }
 
 #hero-main:after {
@@ -25,6 +26,10 @@
     margin: 32px;
 }
 
+.double-margin {
+    margin: 64px;
+}
+
 .education-block {
     width: 60%;
 }
@@ -41,4 +46,13 @@
 
 .modal-margin {
     padding: 64px;
+}
+
+.no-overflow-container {
+    overflow: hidden;
+}
+
+.mid-hero {
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
