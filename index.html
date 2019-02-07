@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karel Vanden Bussche</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<!-- Hero -->
+<section class="hero is-medium is-info" id="hero-main">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Am I your new intern?
+            </h1>
+            <h2 class="subtitle">
+                The online resume of Karel Vanden Bussche
+            </h2>
+        </div>
+    </div>
+
+    <!-- Hero footer -->
+    <div class="hero-foot">
+        <nav class="tabs">
+            <div class="container">
+                <ul>
+                    <li class="is-active"><a>Overview</a></li>
+                    <li><a>Modifiers</a></li>
+                    <li><a>Grid</a></li>
+                    <li><a>Elements</a></li>
+                    <li><a>Components</a></li>
+                    <li><a>Layout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<div class="container is-fluid title-block">
+
+    <!-- Title -->
+    <h1 class="title has-text-centered">Who am I?</h1>
+    <h2 class="subtitle has-text-centered">Or what is my goal</h2>
+    <p class="has-text-centered">I am a curious and inquisitive computer science student. My expertise lies in multiple subdomains: Android, iOS, backend, frontend and algorithms. I am always looking for the next challenge to ameliorate my skills and knowledge, in my own field or a neighbouring one.</p>
+    <p class="has-text-weight-bold has-text-centered">And this is my resume!</p>
+</div>
+
+<div class="container is-fluid default-margin">
+
+    <!-- Title -->
+    <div class="title-block">
+        <h1 class="title has-text-centered">Education</h1>
+        <h2 class="subtitle has-text-centered">Or who shaped my core knowledge</h2>
+    </div>
+    <!-- Title -->
+
+    <div class="default-margin">
+
+        <!-- Master -->
+        <article class="education-block message is-dark is-pulled-left block">
+            <div class="message-body message-right">
+                <div class="columns">
+                    <div class="column">
+                        <a target="_blank" href="https://www.ugent.be"><img src="ugent.png"></a>
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-left has-text-left has-text-weight-bold">MSc Computer Science</p>
+                        <br/>
+                        <p class="is-pulled-left has-text-left is-italic">Ghent University</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-pulled-right has-text-right is-italic">2018-2020</p>
+                    </div>
+                </div>
+                <button class="button is-dark is-fullwidth" onclick="document.getElementById('msc-ugent').classList.add('is-active');">More Information</button>
+            </div>
+        </article>
+
+        <div class="modal" id="msc-ugent">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="container modal-margin  is-fluid has-background-white">
+                    <div class="has-text-centered is-centered">
+                        <p class="title">Master of Science Computer Science Engineering</p>
+                        <p class="subtitle">Exploring computers in depth</p>
+                        <p>Although I am currently still pursuing my master, I can say the curriculum focuses on a multitude of subjects. The many subjects our my bachelor explored are now seen in more detail.</p>
+                        <p>The curriculum consists of the following courses:</p>
+                        <div class="content has-text-left">
+                            <ul>
+                                <li>Information Theory</li>
+                                <li>Queuing Analysis & Simulation</li>
+                                <li>Mobile & Broadband Networks</li>
+                                <li>Design of Multimedia Applications</li>
+                                <li>Parallel & Distributed Software Systems</li>
+                                <li>Research Project (Single Image Super-Resolution)</li>
+                                <li>Design Project</li>
+                                <li>Parallel Computer Systems</li>
+                                <li>Machine Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" onclick="document.getElementById('msc-ugent').classList.remove('is-active');" aria-label="close"></button>
+        </div>
+        <!-- Master -->
+
+        <!-- Bachelor -->
+        <article class="education-block message is-dark is-pulled-right block">
+            <div class="message-body message-left">
+                <div class="columns">
+                    <div class="column">
+                        <p class="is-pulled-left has-text-left is-italic">2015-2018</p>
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-right has-text-right has-text-weight-bold">BSc Informatics</p>
+                        <br/>
+                        <p class="is-pulled-right has-text-right is-italic">Ghent University</p>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="https://www.ugent.be"><img src="ugent.png"></a>
+                    </div>
+                </div>
+                <button class="button is-dark is-fullwidth" onclick="document.getElementById('bsc-ugent').classList.add('is-active');">More Information</button>
+            </div>
+        </article>
+
+        <div class="modal" id="bsc-ugent">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="container modal-margin  is-fluid has-background-white">
+                    <div class="has-text-centered is-centered">
+                        <p class="title">Bachelor of Science in the Informatics</p>
+                        <p class="subtitle">Programming Uncovered</p>
+                        <p>These three years learned me a lot about algorithms, complexity, numerical solutions and of course, different programming paradigms. OOP, functional, logical (prolog), shell and scripting languages all were seen in depth. A deep focus on fast and efficient algorithms and data structures pushed us to really think about code before we wrote it.</p>
+                        <p>The curriculum consisted of the following courses:</p>
+                        <div class="content has-text-left default-margin">
+
+                            <p class="has-text-weight-bold has-text-centered">1st Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 1</li>
+                                <li>Analysis 1</li>
+                                <li>Communication Skills</li>
+                                <li>Computer Usage (Bash/Shell Scripting)</li>
+                                <li>Discrete Math</li>
+                                <li>Linear Algebra & Geometry</li>
+                                <li>Programming 1 (Java)</li>
+                                <li>Programming 2 (Efficient Java)</li>
+                                <li>Intellectual Property Rights</li>
+                                <li>Logic</li>
+                                <li>Scripting Languages</li>
+                            </ul>
+
+                            <p class="has-text-weight-bold has-text-centered">2nd Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 2</li>
+                                <li>Communication Networks</li>
+                                <li>Computer Architecture</li>
+                                <li>Databases</li>
+                                <li>Functional Programming (Haskell)</li>
+                                <li>Multimedia</li>
+                                <li>Software Engineering Lab 1 (Android development)</li>
+                                <li>System Programming (C & C++)</li>
+                                <li>Web Development (Ruby on Rails, React & OWL)</li>
+                                <li>Scientific Calculus (Numeric solutions)</li>
+                            </ul>
+
+                            <p class="has-text-weight-bold has-text-centered">3rd Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 3</li>
+                                <li>Automates, Computability & Complexity </li>
+                                <li>Operating Systems</li>
+                                <li>Computational Biology</li>
+                                <li>Introduction to Electronics</li>
+                                <li>Introduction to Telecommunication</li>
+                                <li>Logical Programming (Prolog)</li>
+                                <li>Software Engineering Lab 2 (Web Application for Fluxys)</li>
+                                <li>Statistics & Probability</li>
+                                <li>Mathematical Modelling for Engineers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" onclick="document.getElementById('bsc-ugent').classList.remove('is-active');" aria-label="close"></button>
+        </div>
+        <!-- Bachelor -->
+
+        <article class="education-block message is-dark is-pulled-left block">
+            <div class="message-body message-right">
+                <div class="columns">
+                    <div class="column">
+                        <img src="SVC.jpeg">
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-left has-text-left has-text-weight-bold">ASO Science with 8 hours of math</p>
+                        <br/>
+                        <p class="is-pulled-left has-text-left is-italic">Sint-Vincentius College Ieper</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-pulled-right has-text-right is-italic">2009-2015</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+
+</body>
+</html>
