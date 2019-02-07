@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("pankaj-patel-1073208-unsplash.jpg");
+    background: url("pankaj-patel-1073208-unsplash.jpg") center center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -55,4 +55,84 @@
 .mid-hero {
     margin-top: 64px;
     margin-bottom: 64px;
+}
+
+#MyM {
+    padding: 128px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#MyM:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("MyM.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+}
+
+#Insono {
+    padding: 128px 16px;
+    position: relative;
+    background: #00000050;
+}
+
+#Insono:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("insono.png") center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+}
+
+#MusicCast {
+    padding: 128px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#MusicCast:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("musiccast.png") center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+}
+
+#Fluxys {
+    padding: 256px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#Fluxys:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("fluxys.png") center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
 }
