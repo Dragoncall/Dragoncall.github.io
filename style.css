@@ -182,3 +182,7 @@
     background: transparent;
     border: none;
 }
+
+#contact {
+    margin-bottom: 0 !important;
+}
