@@ -170,3 +170,15 @@
     background-size: contain;
     background: #f16530 url("ycombinator.jpg") no-repeat center center;
 }
+
+.to-top {
+    position: fixed;
+    right: 5vw;
+    bottom: 0;
+}
+
+.no-background {
+    color: transparent;
+    background: transparent;
+    border: none;
+}
