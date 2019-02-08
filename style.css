@@ -57,6 +57,18 @@
     margin-bottom: 64px;
 }
 
+.semi-opaque-background:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: -1;
+}
+
 #MyM {
     padding: 128px 16px;
     position: relative;
@@ -64,17 +76,8 @@
 }
 
 #MyM:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: url("MyM.jpg") center center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
-    opacity : 0.8;
-    z-index: -1;
 }
 
 #Insono {
@@ -84,17 +87,8 @@
 }
 
 #Insono:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: url("insono.png") center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
-    opacity : 0.8;
-    z-index: -1;
 }
 
 #MusicCast {
@@ -104,17 +98,8 @@
 }
 
 #MusicCast:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: url("musiccast.png") center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
-    opacity : 0.8;
-    z-index: -1;
 }
 
 #Fluxys {
@@ -124,15 +109,64 @@
 }
 
 #Fluxys:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: url("fluxys.png") center center no-repeat;
     background-size: contain;
-    width: 100%;
+}
+
+.vertical-barrier {
+    width: 2px;
     height: 100%;
-    opacity : 0.8;
-    z-index: -1;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#DnD {
+    position: relative;
+    background: #00000060;
+}
+
+#DnD:after {
+    background: url("dnd.png") center no-repeat;
+    background-size: cover;
+}
+
+#SideProjects {
+    position: relative;
+    background: #00000090;
+}
+
+#SideProjects:after {
+    background: url("chris-ried-512801-unsplash.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#Gaming {
+     position: relative;
+     background: #00000080;
+ }
+
+#Gaming:after {
+    background: url("pillars_of_eternity.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#Writing {
+    position: relative;
+    background: #00000080;
+}
+
+#Writing:after {
+    background: url("aaron-burden-90144-unsplash.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#HackerNews {
+    position: relative;
+    background: #00000080;
+}
+
+#HackerNews:after {
+    background-size: contain;
+    background: #f16530 url("ycombinator.jpg") no-repeat center center;
 }
