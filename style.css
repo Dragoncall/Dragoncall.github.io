@@ -102,6 +102,17 @@
     background-size: contain;
 }
 
+#AlcoholManager {
+    padding: 128px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#AlcoholManager:after {
+    background: url("AlcoholManager.png") center no-repeat;
+    background-size: cover;
+}
+
 #Fluxys {
     padding: 256px 16px;
     position: relative;
