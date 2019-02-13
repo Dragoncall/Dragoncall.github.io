@@ -113,6 +113,17 @@
     background-size: cover;
 }
 
+#DnDPages {
+    padding: 256px 16px;
+    position: relative;
+    background: #00000090;
+}
+
+#DnDPages:after {
+    background: url("DnDPages.png") center no-repeat;
+    background-size: cover;
+}
+
 #Fluxys {
     padding: 256px 16px;
     position: relative;
