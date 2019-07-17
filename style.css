@@ -69,6 +69,28 @@
     z-index: -1;
 }
 
+#golfbuddies {
+    padding: 256px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#golfbuddies:after {
+    background: url("golfbuddies.png") center center no-repeat;
+    background-size: cover;
+}
+
+#creativetherapy {
+    padding: 256px 16px;
+    position: relative;
+    background: #00000060;
+}
+
+#creativetherapy:after {
+    background: url("creativetherapy.png") center center no-repeat;
+    background-size: cover;
+}
+
 #MyM {
     padding: 128px 16px;
     position: relative;
