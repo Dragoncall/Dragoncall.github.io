@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karel Vanden Bussche</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="timeline.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<!-- Hero -->
+<section class="hero is-medium is-info" id="hero-main">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <img src="DropboxTransp.png" style="width: 30vw; min-width: 100px; background-color: rgba(82,99,139,0.76); border-radius: 50%;">
+            <h1 class="title">
+                Am I your new <span id="typewriter-suffix"></span>
+            </h1>
+            <h2 class="subtitle">
+                The online resume of Karel Vanden Bussche
+            </h2>
+        </div>
+    </div>
+
+    <!-- Hero footer -->
+    <div class="hero-foot">
+        <nav class="tabs">
+            <div class="container">
+                <ul>
+                    <li><a href="#who-am-i">Who Am I</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work">Work Experience</a></li>
+                    <li><a href="#company">Our company Make</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies & Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<div class="container is-fluid title-block" id="who-am-i">
+
+    <!-- Title -->
+    <h1 class="title has-text-centered">Who am I?</h1>
+    <h2 class="subtitle has-text-centered">What is my goal</h2>
+    <p class="has-text-centered">I am a curious and inquisitive computer science student. My expertise lies in multiple subdomains: Android and iOS Mobile Development, Backend Development, Frontend Development, Data Engineering and Algorithms. I am always looking for the next challenge to ameliorate my skills and knowledge, in my own field or a neighbouring one.</p>
+    <p class="has-text-weight-bold has-text-centered">And this is my resume!</p>
+    <!-- Title -->
+</div>
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Now for my skills
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<div class="container is-fluid default-margin no-overflow-container" id="education">
+
+    <!-- Title -->
+    <div class="">
+        <h1 class="title has-text-centered">Education</h1>
+        <h2 class="subtitle has-text-centered">Who shaped my core knowledge</h2>
+    </div>
+    <!-- Title -->
+
+    <div class="default-margin">
+
+        <!-- Master -->
+        <article class="education-block message is-dark is-pulled-left block">
+            <div class="message-body message-right">
+                <div class="columns">
+                    <div class="column">
+                        <a target="_blank" href="https://www.ugent.be"><img src="ugent.png"></a>
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-left has-text-left has-text-weight-bold">MSc Computer Science</p>
+                        <br/>
+                        <p class="is-pulled-left has-text-left is-italic">Ghent University</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-pulled-right has-text-right is-italic">2018-2020</p>
+                    </div>
+                </div>
+                <button class="button is-dark is-fullwidth" onclick="document.getElementById('msc-ugent').classList.add('is-active');">More Information</button>
+            </div>
+        </article>
+
+        <div class="modal" id="msc-ugent">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="container modal-margin  is-fluid has-background-white">
+                    <div class="has-text-centered is-centered">
+                        <p class="title">Master of Science Computer Science Engineering</p>
+                        <p class="subtitle">Exploring computers in depth</p>
+                        <p>Although I am currently still pursuing my master, I can say the curriculum focuses on a multitude of subjects. The many subjects our my bachelor explored are now seen in more detail.</p>
+                        <p>The curriculum consists of the following courses:</p>
+                        <div class="content has-text-left">
+                            <ul>
+                                <li>Information Theory</li>
+                                <li>Queuing Analysis & Simulation</li>
+                                <li>Mobile & Broadband Networks</li>
+                                <li>Design of Multimedia Applications</li>
+                                <li>Parallel & Distributed Software Systems</li>
+                                <li>Research Project (Single Image Super-Resolution)</li>
+                                <li>Design Project</li>
+                                <li>Parallel Computer Systems</li>
+                                <li>Machine Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" onclick="document.getElementById('msc-ugent').classList.remove('is-active');" aria-label="close"></button>
+        </div>
+        <!-- Master -->
+
+        <!-- Bachelor -->
+        <article class="education-block message is-dark is-pulled-right block">
+            <div class="message-body message-left">
+                <div class="columns">
+                    <div class="column">
+                        <p class="is-pulled-left has-text-left is-italic">2015-2018</p>
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-right has-text-right has-text-weight-bold">BSc Informatics</p>
+                        <br/>
+                        <p class="is-pulled-right has-text-right is-italic">Ghent University</p>
+                    </div>
+                    <div class="column">
+                        <a target="_blank" href="https://www.ugent.be"><img src="ugent.png"></a>
+                    </div>
+                </div>
+                <button class="button is-dark is-fullwidth" onclick="document.getElementById('bsc-ugent').classList.add('is-active');">More Information</button>
+            </div>
+        </article>
+
+        <div class="modal" id="bsc-ugent">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="container modal-margin  is-fluid has-background-white">
+                    <div class="has-text-centered is-centered">
+                        <p class="title">Bachelor of Science in the Informatics</p>
+                        <p class="subtitle">Programming Uncovered</p>
+                        <p>These three years learned me a lot about algorithms, complexity, numerical solutions and of course, different programming paradigms. OOP, functional, logical (prolog), shell and scripting languages all were seen in depth. A deep focus on fast and efficient algorithms and data structures pushed us to really think about code before we wrote it.</p>
+                        <p>The curriculum consisted of the following courses:</p>
+                        <div class="content has-text-left default-margin">
+
+                            <p class="has-text-weight-bold has-text-centered">1st Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 1</li>
+                                <li>Analysis 1</li>
+                                <li>Communication Skills</li>
+                                <li>Computer Usage (Bash/Shell Scripting)</li>
+                                <li>Discrete Math</li>
+                                <li>Linear Algebra & Geometry</li>
+                                <li>Programming 1 (Java)</li>
+                                <li>Programming 2 (Efficient Java)</li>
+                                <li>Intellectual Property Rights</li>
+                                <li>Logic</li>
+                                <li>Scripting Languages</li>
+                            </ul>
+
+                            <p class="has-text-weight-bold has-text-centered">2nd Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 2</li>
+                                <li>Communication Networks</li>
+                                <li>Computer Architecture</li>
+                                <li>Databases</li>
+                                <li>Functional Programming (Haskell)</li>
+                                <li>Multimedia</li>
+                                <li>Software Engineering Lab 1 (Android development)</li>
+                                <li>System Programming (C & C++)</li>
+                                <li>Web Development (Ruby on Rails, React & OWL)</li>
+                                <li>Scientific Calculus (Numeric solutions)</li>
+                            </ul>
+
+                            <p class="has-text-weight-bold has-text-centered">3rd Year</p>
+
+                            <ul>
+                                <li>Algorithms & Data Structures 3</li>
+                                <li>Automates, Computability & Complexity </li>
+                                <li>Operating Systems</li>
+                                <li>Computational Biology</li>
+                                <li>Introduction to Electronics</li>
+                                <li>Introduction to Telecommunication</li>
+                                <li>Logical Programming (Prolog)</li>
+                                <li>Software Engineering Lab 2 (Web Application for Fluxys)</li>
+                                <li>Statistics & Probability</li>
+                                <li>Mathematical Modelling for Engineers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" onclick="document.getElementById('bsc-ugent').classList.remove('is-active');" aria-label="close"></button>
+        </div>
+        <!-- Bachelor -->
+
+        <article class="education-block message is-dark is-pulled-left block">
+            <div class="message-body message-right">
+                <div class="columns">
+                    <div class="column">
+                        <img src="SVC.jpeg">
+                    </div>
+                    <div class="column is-half">
+                        <p class="is-pulled-left has-text-left has-text-weight-bold">ASO Science with 8 hours of math</p>
+                        <br/>
+                        <p class="is-pulled-left has-text-left is-italic">Sint-Vincentius College Ieper</p>
+                    </div>
+                    <div class="column">
+                        <p class="is-pulled-right has-text-right is-italic">2009-2015</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+<!-- Education -->
+
+<section class="hero is-dark mid-hero no-overflow-container">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Still not convinced?
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Work Experience -->
+<div class="container default-margin no-overflow-container" id="work">
+    <!-- Title -->
+    <div class="title-block">
+        <h1 class="title has-text-centered">Work Experience</h1>
+        <h2 class="subtitle has-text-centered">What made me dig deeper in programming</h2>
+    </div>
+    <!-- Title -->
+
+    <div class="container">
+
+        <div class="timeline-item" date-is='July 2016-Aug 2016'>
+            <h1 class="title">Backend Developer</h1>
+            <h2 class="subtitle">Artilium</h2>
+            <p>
+                During my stay, I helped set up a new web application, both front and back end, to couple an identity to prepaid phone cards for a couple of mobile network operators. The application was written in .NET MVC using Razor. This was my first time using .NET and the bootstrap frontend layout framework.
+            </p>
+        </div>
+
+        <div class="timeline-item" date-is='April 2017-Sep 2017'>
+            <h1 class="title">All-round Developer</h1>
+            <h2 class="subtitle">Prior-It</h2>
+            <div class="content">
+                <p>
+                    During my time there, I created applications based on a pre-existing PHP backend. This application handles check-in and check-outs of construction workers to create correct time estimates. This service consisted of:
+                </p>
+                <ul>
+                    <li>An Angular web application</li>
+                    <li>An iOS application</li>
+                    <li>An Android application</li>
+                </ul>
+                <p>I worked closely with the client to develop and update the application.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" date-is='July 2018-Sep 2018'>
+            <h1 class="title">Android Developer</h1>
+            <h2 class="subtitle">BakkersOnline</h2>
+            <p>
+                Our team of 2 was responsible for building the public Android application to complement the current web platform. The application will be launched publicly soon. Part of this job was remote.
+            </p>
+        </div>
+
+        <div class="timeline-item" date-is='July 2018-Sep 2018'>
+            <h1 class="title">Python Developer</h1>
+            <h2 class="subtitle">Ghent University</h2>
+            <div class="content">
+                <p>
+                    My job consisted of:
+                </p>
+                <ul>
+                    <li>Creating solutions for complex bio-informatics algorithms based on the exercises of <a href="http://rosalind.info/problems/locations/">Rosalind</a></li>
+                    <li>Expanding the online programming education platform of the university: <a href="https://dodona.ugent.be/en/">Dodona</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item" date-is='July 2019-Aug 2019'>
+            <h1 class="title">Data Engineer</h1>
+            <h2 class="subtitle">OTAInsight</h2>
+            <div class="content">
+                <p>
+                    One of the biggest SaaS companies in Belgium decided to let me intern with their company.
+                    I grabbed the opportunity with both hands and had the most educative months of my studies.
+                    My job consisted of:
+                </p>
+                <ul>
+                    <li>Joining and working in a team of highly professional developers and working on an architectural challenging codebase</li>
+                    <li>Writing deployments and Gitlab CI/CD scripts to make deploying to Google Kubernetes Engine easy</li>
+                    <li>Transforming the retrieved data into a processed version using Python and Spanner databases</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="timeline-item" date-is='This Summer'>
+            <h1 class="title">Internship</h1>
+            <h2 class="subtitle">Your Company</h2>
+            <div class="content">
+                <p>Will your company give me an internship where I can use my skills in a challenging and enriching way?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Work Experience -->
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                That's not all though
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Make Experience -->
+<div class="container default-margin no-overflow-container" id="company">
+    <!-- Title -->
+    <div class="title-block">
+        <h1 class="title has-text-centered">Make</h1>
+        <h2 class="subtitle has-text-centered">Our own little creations</h2>
+        <p>
+            Another student and I founded a company aimed at solving the world's problems with IT, a small step at the time.
+            During the many years as a student, we thought it would be a good idea to practice our skills even more, while creating meaningful products for starting companies.
+            Beneath, a couple of the ones we are most proud of are shown.
+        </p>
+    </div>
+    <!-- Title -->
+
+    <div class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical">
+                <div class="tile is-child notification is-primary hero semi-opaque-background" id="golfbuddies">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">GolfBuddies</h1>
+                            <h2 class="subtitle">
+                                For a client in Sint-Martens-Latem, we built a social application for golfers.
+                                Thanks to our application, finding a golfmatch or organising one with friends has never been easier.
+                                We developed the application on top of Firebase, a google cloud product and used Vue for the frontend.
+                                <a href="https://golfbuddies-ef806.firebaseapp.com">GolfBuddies</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-child notification is-primary hero semi-opaque-background" id="creativetherapy">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">Creative Therapy</h1>
+                            <h2 class="subtitle">
+                                For a startup based in Ghent, we created a platform on which patients can play WebAssembly games on a sensor-based mat.
+                                We created the entire Kubernetes architecture and DevOps pipeline to easily rollout changes to staging and production.
+                                The backend is created in Django using the Rest Framework and the frontend is Angular.
+                                The combination of these powerfull technologies makes Creative Therapy both in hardware and software a leader in technology.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Make Experience -->
+
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                How about some side-projects?
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<div class="container is-fluid title-block no-overflow-container" id="projects">
+
+    <!-- Title -->
+    <h1 class="title has-text-centered">Projects</h1>
+    <h2 class="subtitle has-text-centered">What did my inner creator produce</h2>
+    <!-- Title -->
+
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical">
+            <div class="tile">
+                <div class="tile is-6 is-parent is-vertical">
+                    <div class="tile is-child notification is-primary hero semi-opaque-background" id="MyM">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Minecraft plugin developer</h1>
+                                <h2 class="subtitle">I spent some time as a Minecraft plugin developer for a modded minecraft server: <a target="_blank" href="https://mineyourmind.net/">MyM</a>. These plugins were written in Sponge, a Java framework to create Minecraft plugins easily.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile is-child notification is-info hero semi-opaque-background" id="Insono">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">CRM Insono Hearing Consultants</h1>
+                                <h2 class="subtitle">I created a simple CRM using Django as a backend and React as the frontend. This CRM is currently actively used by Insono.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-6">
+                    <div class="tile is-vertical is-parent">
+                        <div class="tile is-child notification is-dark hero semi-opaque-background" id="MusicCast">
+                            <div class="hero-body">
+                                <div class="container has-text-centered">
+                                    <h1 class="title"><a target="_blank" href="http://musiccast.herokuapp.com/">MusicCast</a></h1>
+                                    <h2 class="subtitle">Small music app where you can create a shared queue with only one person connected to the speaker. The backend was created in Ruby on Rails and the frontend in Angular. A complementary app was also created, privately for iOS and publicly for Android. The latter is currently inactive due to a DMCA</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tile is-child notification is-dark hero semi-opaque-background" id="AlcoholManager">
+                            <div class="hero-body">
+                                <div class="container has-text-centered">
+                                    <h1 class="title"><a target="_blank" href="https://play.google.com/store/apps/details?id=be.ugent.groep4.am&hl=en_US">AlcoholManager</a></h1>
+                                    <h2 class="subtitle">An Android application created as a school project. The application approximates the amount of alcohol present in your bloodstream and warns the user when he is unable to drive.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child notification is-danger hero semi-opaque-background" id="DnDPages">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title"><a target="_blank" href="https://dndpages.firebaseapp.com">Dungeons & Dragons Dynamic Map</a></h1>
+                            <h2 class="subtitle">A small website I made to visualise my world and give information about the different places. Due to its simplicity, I tried to use as much HTML & CSS as possible, but had to use some JQuery to keep the code clean with the multiple interactions.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child notification is-danger hero semi-opaque-background" id="Fluxys">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">Fluxys Tank Simulator</h1>
+                            <h2 class="subtitle">A private web application made as a school project to let Fluxys, the largest gas transporter of Belgium, simulate the movements between its storage tanks, its ships and its network. The application also had to check if the volumes fitted in the storage tanks or ships. These simulations also required to be stored and shareable between different roles. The application was made with Java Spring as a backend and VueJS as a frontend using Vuetify as design/component library. The application is currently in private usage at Fluxys.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Projects -->
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Let's put this in some graphs
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<div class="container is-fluid title-block no-overflow-container" id="skills">
+
+    <!-- Title -->
+    <h1 class="title has-text-centered">Programming Skills</h1>
+    <h2 class="subtitle has-text-centered">A score I would give myself</h2>
+    <!-- Title -->
+
+    <div class="columns has-text-centered">
+        <div class="column is-5">
+            <h1 class="subtitle">Languages</h1>
+
+            <p>Python</p>
+            <progress class="progress is-primary" value="75" max="100">75%</progress>
+
+            <p>Java/Kotlin</p>
+            <progress class="progress is-info" value="65" max="100">65%</progress>
+
+            <p>Javascript</p>
+            <progress class="progress is-danger" value="70" max="100">70%</progress>
+
+            <p>Bash</p>
+            <progress class="progress is-warning" value="50" max="100">50%</progress>
+
+            <p>C</p>
+            <progress class="progress is-dark" value="70" max="100">70%</progress>
+
+            <p>C++</p>
+            <progress class="progress is-primary" value="60" max="100">60%</progress>
+
+            <p>C#</p>
+            <progress class="progress is-info" value="50" max="100">50%</progress>
+
+            <p>Go</p>
+            <progress class="progress is-danger" value="35" max="100">35%</progress>
+        </div>
+        <div class="column is-2">
+            <div class="vertical-barrier"></div>
+        </div>
+        <div class="column is-5">
+            <h1 class="subtitle">Environments</h1>
+
+            <p>Android</p>
+            <progress class="progress is-primary" value="75" max="100">75%</progress>
+
+            <p>Backend</p>
+            <progress class="progress is-info" value="75" max="100">75%</progress>
+
+            <p>Frontend</p>
+            <progress class="progress is-danger" value="75" max="100">75%</progress>
+
+            <p>DevOps</p>
+            <progress class="progress is-warning" value="50" max="100">50%</progress>
+
+            <p>iOS</p>
+            <progress class="progress is-dark" value="50" max="100">50%</progress>
+        </div>
+    </div>
+
+    <div class="has-text-centered" style="margin: 50px 10vw">
+        <h1 class="subtitle">Infrastructure/Others</h1>
+
+        <p>Kubernetes</p>
+        <progress class="progress is-primary" value="70" max="100">70%</progress>
+
+        <p>Google Cloud</p>
+        <progress class="progress is-info" value="60" max="100">60%</progress>
+
+        <p>Gcloud Spanner</p>
+        <progress class="progress is-danger" value="70" max="100">70%</progress>
+
+        <p>Gcloud PubSub</p>
+        <progress class="progress is-warning" value="50" max="100">50%</progress>
+
+        <p>Gitlab CI/CD</p>
+        <progress class="progress is-warning" value="70" max="100">70%</progress>
+    </div>
+
+    <div class="columns double-margin">
+        <div class="column container has-text-centered">
+            <h1 class="subtitle"><a href="http://rosalind.info/users/kavdnbus/">Rosalind</a></h1>
+            <div class="is-fullwidth">
+                <img style="max-width: 300px" src="rosalind_level.png"/>
+            </div>
+        </div>
+        <div class="column container has-text-centered">
+            <h1 class="subtitle"><a href="http://projecteuler.net">Project Euler</a></h1>
+            <div class="is-fullwidth">
+                <img style="max-width: 500px; min-width: 300px" src="project_euler.png"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Skills -->
+
+<section class="hero is-dark mid-hero">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                But it doesn't stop at programming
+            </h1>
+        </div>
+    </div>
+</section>
+
+<!-- Interests -->
+<div class="container is-fluid title-block no-overflow-container" id="hobbies">
+
+    <!-- Title -->
+    <h1 class="title has-text-centered">Hobbies & Interests</h1>
+    <h2 class="subtitle has-text-centered">The story behind the resume</h2>
+    <!-- Title -->
+
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical">
+            <div class="tile">
+                <div class="tile is-6 is-parent is-vertical">
+                    <div class="tile is-child notification is-primary hero semi-opaque-background" id="Writing">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Writing</h1>
+                                <h2 class="subtitle">Last November, I participated in NaNoWriMo (National Novel Writing Month). The goal of this event is to write 50.000 words in one month. During this month, I really started enjoying writing and am still writing today, mostly for my DnD campaign.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile is-child notification is-info hero semi-opaque-background" id="Gaming">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Gaming</h1>
+                                <h2 class="subtitle">Of course I like gaming, from MOBAs like League of Legends to immersive RPGs like Pillars of Eternity or Dragon Age.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-6 is-parent">
+                    <div class="tile is-child notification is-dark hero semi-opaque-background" id="DnD">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Dungeons & Dragons</h1>
+                                <h2 class="subtitle">I am currently the DM of a custom made campaign and world. I love creating worlds and letting my players enjoy them. Seeing them manipulate my world into shapes I couldn't have imagined pushes me to immerse myself into the world and use different types of logic for each NPC's personality. Doing this taught me a lot about improvisation and is my favorite creative outlet. It's also a great social meet up and I made quite a few friends doing this.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile is-parent is-7">
+                    <div class="title is-child notification is-danger hero semi-opaque-background" id="HackerNews">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Following Hackernews</h1>
+                                <h2 class="subtitle">A computer scientist wouldn't be a computer scientist if he wasn't eager to learn. I love to follow <a href="https://news.ycombinator.com/news">Hackernews</a> to stay up to date with, computer news, but also scientific articles about neuroscience or physics. This way, I keep my knowledge up to date and expand my vision on the world.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="title is-child notification is-dark hero semi-opaque-background" id="SideProjects">
+                        <div class="hero-body">
+                            <div class="container has-text-centered">
+                                <h1 class="title">Small Coding Projects</h1>
+                                <h2 class="subtitle">As listed in the <a href="#projects">Projects section</a>, I love coding and do it besides school whenever possible. University projects consume a large portion of my time, but I still long to create a project truly my own whenever it's a calm period.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Interests -->
+
+
+<div class="to-top">
+    <article class="message">
+        <div class="message-header">
+            <button class="no-background title has-text-white" onclick="window.scrollTo(0,0);">Top</button>
+        </div>
+    </article>
+</div>
+
+<!-- Outro -->
+<section class="hero is-dark mid-hero" id="contact">
+    <!-- Hero content -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title">
+                Did I convince you?
+            </h1>
+            <h2 class="subtitle">
+                Contact me now via email: <a href="mailto:karelvandenbussche@hotmail.com">karelvandenbussche@hotmail.com</a>
+            </h2>
+        </div>
+    </div>
+</section>
+<!-- Outro -->
+
+<script>
+  new Typewriter('#typewriter-suffix', {
+    strings: [
+      'Intern', 'Dropboxer', 'Creator', 'Engineer', 'File Wrangler',
+      'Developer', 'Programmer', 'Paper Shuffler', 'Function Breeder', 'Cloud Sculpter'
+    ],
+    loop: true,
+    autoStart: true,
+  });
+
+</script>
+
+</body>
+</html>
