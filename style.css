@@ -91,6 +91,17 @@
     background-size: cover;
 }
 
+#foodpairing {
+    padding: 256px 16px;
+    position: relative;
+    background: #000000b0;
+}
+
+#foodpairing:after {
+    background: url("foodpairing.png") center center no-repeat;
+    background-size: cover;
+}
+
 #MyM {
     padding: 128px 16px;
     position: relative;
