@@ -102,6 +102,17 @@
     background-size: cover;
 }
 
+#justrussel {
+    padding: 256px 16px;
+    position: relative;
+    background: #000000b0;
+}
+
+#justrussel:after {
+    background: url("jr_logo.png") center center no-repeat;
+    background-size: cover;
+}
+
 #MyM {
     padding: 128px 16px;
     position: relative;
